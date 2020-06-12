@@ -42,18 +42,18 @@ body,
   border-top: 1px solid var(--border-color) !important;
   border-right: 1px solid var(--border-color) !important;
   border-radius: 6px;
-  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.04) !important;
+  /*box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.04) !important;*/
   overflow: visible !important;
   background: var(--body-background-color) !important;
-  margin-right: 12px;
-  margin-left: 12px; }
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-left: 16px; }
   .roam-center > div:first-child {
     padding-right: calc(0.5 * (100% - 820px)) !important;
     padding-left: calc(0.5 * (100% - 820px)) !important; }
 
 .roam-topbar {
-  background: var(--main-background-color) !important;
-  border-bottom: none !important; }
+  background: var(--main-background-color) !important; }
   .roam-topbar input#find-or-create-input {
     box-shadow: none !important;
     border: 1px solid var(--border-color) !important; }
@@ -62,7 +62,7 @@ body,
 .roam-topbar,
 #right-sidebar,
 .roam-sidebar-container {
-  background: var(--main-background-color) !important; }
+  background: transparent !important; }
 
 #right-sidebar {
   border: none !important;
@@ -229,7 +229,7 @@ strong {
     --border-color: rgba(0, 0, 0, 0.07) !important;
     --subtle-border-color: rgba(0, 0, 0, 0.05) !important;
     --main-background-color: hsl(0, 0%, 96%) !important;
-    --body-background-color: hsl(0, 0%, 90%) !important;
+    --body-background-color: hsl(0, 0%, 100%) !important;
     --reference-item-background: hsl(0, 0%, 93%) !important;
     --brackets-color: rgba(0, 0, 0, 0.3) !important;
     --empty-text-color: hsl(203, 5%, 70%); } }
